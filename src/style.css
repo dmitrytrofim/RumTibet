@@ -79,4 +79,12 @@ button {
 */
 @tailwind base;
 @tailwind components;
+
+.i-wrap {
+ @apply relative flex;
+}
+.i-full {
+ @apply absolute top-0 left-0 w-full h-full object-cover object-center;
+}
+
 @tailwind utilities;

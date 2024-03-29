@@ -2,8 +2,8 @@ import { createApp } from 'vue';
 import '@/style.css';
 import App from '@/App.vue';
 import router from '@router/router';
-import commons from '@components/commons';
-import ui from '@components/UI';
+import commons from '@components/commons/index';
+import ui from '@components/UI/index';
 
 const app = createApp(App);
 

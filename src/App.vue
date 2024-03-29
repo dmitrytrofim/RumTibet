@@ -24,17 +24,4 @@ body {
   overflow: hidden;
  }
 }
-.i-wrap {
- position: relative;
- display: flex;
-}
-.i-full {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- object-fit: cover;
- object-position: center;
-}
 </style>
