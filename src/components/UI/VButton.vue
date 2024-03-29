@@ -1,5 +1,5 @@
 <template>
- <a href="#" class="border"><slot></slot></a>
+ <a href="#" class=""><slot></slot></a>
 </template>
 
 <script lang="ts">

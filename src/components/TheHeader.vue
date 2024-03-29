@@ -1,12 +1,12 @@
 <template>
  <header class="bg-[gray] text-[var(--b-white)]">
   <v-container>
-   <div class="flex">
-    <a href="#" class="i-wrap w-[50px] h-[50px] border">
-     <img src="@/assets/img/svg/logo.svg" alt="" class="inset-full" />
+   <div class="flex items-center gap-[10px]">
+    <a href="#" class="i-wrap w-[50px] h-[50px]">
+     <img src="../assets/img/svg/logo.svg" alt="" class="inset-full" />
     </a>
-    <nav class="border">
-     <ul>
+    <nav class="ml-auto">
+     <ul class="flex items-center gap-[10px]">
       <li><RouterLink class="" to="/">Главная</RouterLink></li>
       <li>
        <RouterLink to="/about">О компании</RouterLink>
