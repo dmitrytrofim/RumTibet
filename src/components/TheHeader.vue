@@ -31,6 +31,6 @@ export default defineComponent({
 
 <style scoped>
 .router-link-exact-active {
- color: red;
+ text-decoration: underline;
 }
 </style>

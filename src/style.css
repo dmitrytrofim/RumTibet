@@ -5,8 +5,18 @@
 */
 :root {
  /* --sz-nn: nnpx; */
+ --sz-12: 12px;
+ --sz-14: 14px;
  --sz-16: 16px;
  --sz-18: 18px;
+ --sz-20: 20px;
+ --sz-24: 24px;
+ --sz-26: 26px;
+ --sz-28: 28px;
+ --sz-30: 30px;
+ --sz-32: 32px;
+ --sz-50: 50px;
+ --sz-80: 80px;
  /* --sz-nn: nnpx; */
 
  --t-black: #000;
@@ -15,6 +25,7 @@
 
  --b-black: #000;
  --b-white: #fff;
+ --b-darkgray: #1a3e3e;
 }
 
 /* 
