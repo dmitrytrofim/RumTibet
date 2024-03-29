@@ -41,31 +41,6 @@
 } */
 
 /* 
- @mark scroll 
-*/
-::-webkit-scrollbar-button {
- width: 6px;
- height: 0px;
-}
-::-webkit-scrollbar-track {
- background-color: var(--b-white);
- box-shadow: 0px 0px 3px var(--b-white) inset;
-}
-::-webkit-scrollbar-thumb {
- border-radius: 2px;
- background-color: var(--b-black);
- background-position: center;
- background-repeat: no-repeat;
-}
-::-webkit-resizer {
- width: 7px;
- height: 0px;
-}
-::-webkit-scrollbar {
- width: 7px;
-}
-
-/* 
  @mark custom-reset 
 */
 input,
@@ -81,6 +56,26 @@ button {
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+ ::-webkit-scrollbar-button {
+  @apply w-[6px] h-0;
+ }
+ ::-webkit-scrollbar-track {
+  @apply bg-[var(--b-white)] shadow-[0px_0px_3px_var(--b-white)_inset];
+ }
+ ::-webkit-scrollbar-thumb {
+  @apply rounded-[2px] bg-[var(--b-black)];
+ }
+ ::-webkit-resizer {
+  @apply w-[7px] h-0;
+ }
+ ::-webkit-scrollbar {
+  @apply w-[7px];
+ }
+ body {
+  @apply font-roboto font-700 text-14 leading-n text-[var(--t-dark)] bg-[var(--b-white)];
+ }
+}
 @layer components {
  .i-wrap {
   @apply relative flex;
