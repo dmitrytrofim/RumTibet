@@ -6,6 +6,10 @@ export default {
   fontFamily: {
    roboto: ['Roboto', 'sans-serif'],
   },
+  fontSize: {
+   16: 'var(--sz-16)',
+   18: 'var(--sz-18)',
+  },
   colors: {
    trp: 'transparent',
   },
