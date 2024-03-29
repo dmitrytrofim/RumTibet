@@ -1,17 +1,20 @@
 <template>
- <header class="bg-[black]">
-  <v-container class="pt-[200px]">
-   <a href="#" class="i-wrap w-[50px] h-[50px]">
-    <img src="@/assets/img/svg/logo.svg" alt="" class="inset-full" />
-   </a>
-   <nav>
-    <ul>
-     <li><RouterLink class="" to="/">Главная</RouterLink></li>
-     <li>
-      <RouterLink to="/about">О компании</RouterLink>
-     </li>
-    </ul>
-   </nav>
+ <header class="bg-[gray] text-[var(--b-white)]">
+  <v-container>
+   <div class="">
+    <a href="#" class="i-wrap w-[50px] h-[50px]">
+     <img src="@/assets/img/svg/logo.svg" alt="" class="inset-full" />
+    </a>
+    <nav>
+     <ul>
+      <li><RouterLink class="" to="/">Главная</RouterLink></li>
+      <li>
+       <RouterLink to="/about">О компании</RouterLink>
+      </li>
+     </ul>
+    </nav>
+    <v-button>test</v-button>
+   </div>
   </v-container>
  </header>
 </template>
