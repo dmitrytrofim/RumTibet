@@ -27,7 +27,6 @@ body {
 .i-wrap {
  position: relative;
  display: flex;
- width: 100%;
 }
 .i-full {
  position: absolute;

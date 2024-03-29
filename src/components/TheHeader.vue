@@ -1,11 +1,11 @@
 <template>
  <header class="bg-[gray] text-[var(--b-white)]">
   <v-container>
-   <div class="">
-    <a href="#" class="i-wrap w-[50px] h-[50px]">
+   <div class="flex">
+    <a href="#" class="i-wrap w-[50px] h-[50px] border">
      <img src="@/assets/img/svg/logo.svg" alt="" class="inset-full" />
     </a>
-    <nav>
+    <nav class="border">
      <ul>
       <li><RouterLink class="" to="/">Главная</RouterLink></li>
       <li>
