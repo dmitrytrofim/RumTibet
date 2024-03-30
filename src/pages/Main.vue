@@ -43,9 +43,9 @@
     </div>
    </v-container>
   </section>
-  <section>
+  <section class="bg-[var(--b-light)]">
    <v-container>
-    <div class="flex justify-between items-center gap-[90px]">
+    <div class="flex justify-between items-center gap-[90px] py-[100px]">
      <div class="flex flex-col items-start">
       <p class="overtitle mb-[10px]">наше предложение</p>
       <h2 class="title mb-[40px]">Лучшие программы для тебя</h2>
@@ -54,32 +54,44 @@
        есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из
        колледжа.
       </p>
-      <ul class="">
-       <li class="">
-        <img src="/img/svg/blog-1.svg" alt="" />
-        <div class="">
-         <p class="">Опытный гид</p>
-         <p class="">
+      <ul class="flex flex-col gap-[40px] mb-[40px]">
+       <li class="flex items-center gap-[15px]">
+        <img
+         class="shrink-0 w-[50px] aspect-square"
+         src="/img/svg/blog-1.svg"
+         alt=""
+        />
+        <div class="flex flex-col gap-[5px]">
+         <p class="text-18">Опытный гид</p>
+         <p class="font-400 leading-[1.42]">
           Для современного мира базовый вектор развития предполагает независимые
           способы реализации соответствующих условий активизации.
          </p>
         </div>
        </li>
-       <li class="">
-        <img src="/img/svg/blog-2.svg" alt="" />
-        <div class="">
-         <p class="">Безопасный поход</p>
-         <p class="">
+       <li class="flex items-center gap-[15px]">
+        <img
+         class="shrink-0 w-[50px] aspect-square"
+         src="/img/svg/blog-2.svg"
+         alt=""
+        />
+        <div class="flex flex-col gap-[5px]">
+         <p class="text-18">Безопасный поход</p>
+         <p class="font-400 leading-[1.42]">
           Для современного мира базовый вектор развития предполагает независимые
           способы реализации соответствующих условий активизации.
          </p>
         </div>
        </li>
-       <li class="">
-        <img src="/img/svg/blog-3.svg" alt="" />
-        <div class="">
-         <p class="">Лояльные цены</p>
-         <p class="">
+       <li class="flex items-center gap-[15px]">
+        <img
+         class="shrink-0 w-[50px] aspect-square"
+         src="/img/svg/blog-3.svg"
+         alt=""
+        />
+        <div class="flex flex-col gap-[5px]">
+         <p class="text-18">Лояльные цены</p>
+         <p class="font-400 leading-[1.42]">
           Для современного мира базовый вектор развития предполагает независимые
           способы реализации соответствующих условий активизации.
          </p>
@@ -102,6 +114,31 @@
        <img src="/img/program-4.png" alt="" class="i-full" />
       </div>
      </div>
+    </div>
+   </v-container>
+  </section>
+  <section>
+   <v-container>
+    <div class="flex flex-col items-center py-[100px]">
+     <p class="overtitle mb-[10px]">по версии отдыхающих</p>
+     <h2 class="title mb-[50px]">Популярные направления</h2>
+     <div class="self-stretch grid grid-cols-3 mb-[50px]">
+      <div class="i-wrap items-end aspect-[0.76]">
+       <img class="i-full" src="/img/popular-1.png" alt="" />
+       <span
+        class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
+        >4.9</span
+       >
+       <div class="relative z-10">
+        <div class="">
+         <h3 class="">Озеро возле гор</h3>
+         <p class="">романтическое приключение</p>
+        </div>
+        <span class="">480 $</span>
+       </div>
+      </div>
+     </div>
+     <v-button>Стоимость программ</v-button>
     </div>
    </v-container>
   </section>
