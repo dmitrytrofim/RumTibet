@@ -122,19 +122,80 @@
     <div class="flex flex-col items-center py-[100px]">
      <p class="overtitle mb-[10px]">по версии отдыхающих</p>
      <h2 class="title mb-[50px]">Популярные направления</h2>
-     <div class="self-stretch grid grid-cols-3 mb-[50px]">
-      <div class="i-wrap items-end aspect-[0.76]">
+     <div class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px]">
+      <div
+       class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
+      >
        <img class="i-full" src="/img/popular-1.png" alt="" />
        <span
         class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
         >4.9</span
        >
-       <div class="relative z-10">
-        <div class="">
-         <h3 class="">Озеро возле гор</h3>
-         <p class="">романтическое приключение</p>
+       <div
+        class="relative w-full flex justify-between items-center p-[20px_32px] backdrop-blur-[6px] z-10"
+       >
+        <div class="flex flex-col">
+         <h3 class="text-24 leading-[1.2] text-[var(--t-white)]">
+          Озеро возле гор
+         </h3>
+         <p class="font-400 leading-[1.28] text-[var(--t-white)]">
+          романтическое приключение
+         </p>
         </div>
-        <span class="">480 $</span>
+        <span
+         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px]"
+         >480 $</span
+        >
+       </div>
+      </div>
+      <div
+       class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
+      >
+       <img class="i-full" src="/img/popular-2.png" alt="" />
+       <span
+        class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
+        >4.9</span
+       >
+       <div
+        class="relative w-full flex justify-between items-center p-[20px_32px] backdrop-blur-[6px] z-10"
+       >
+        <div class="flex flex-col">
+         <h3 class="text-24 leading-[1.2] text-[var(--t-white)]">
+          Озеро возле гор
+         </h3>
+         <p class="font-400 leading-[1.28] text-[var(--t-white)]">
+          романтическое приключение
+         </p>
+        </div>
+        <span
+         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px]"
+         >480 $</span
+        >
+       </div>
+      </div>
+      <div
+       class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
+      >
+       <img class="i-full" src="/img/popular-3.png" alt="" />
+       <span
+        class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
+        >4.9</span
+       >
+       <div
+        class="relative w-full flex justify-between items-center p-[20px_32px] backdrop-blur-[6px] z-10"
+       >
+        <div class="flex flex-col">
+         <h3 class="text-24 leading-[1.2] text-[var(--t-white)]">
+          Озеро возле гор
+         </h3>
+         <p class="font-400 leading-[1.28] text-[var(--t-white)]">
+          романтическое приключение
+         </p>
+        </div>
+        <span
+         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px]"
+         >480 $</span
+        >
        </div>
       </div>
      </div>
