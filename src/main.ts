@@ -2,13 +2,11 @@ import { createApp } from 'vue';
 import '@/style.css';
 import App from '@/App.vue';
 import router from '@router/router';
-import commons from '@components/commons/index';
-import ui from '@components/UI/index';
+import components from '@components/index';
 
 const app = createApp(App);
 
-commons.forEach((common) => app.component(common.name, common));
-ui.forEach((elem) => app.component(elem.name, elem));
+components.forEach((component) => app.component(component.name, component));
 
 app.use(router);
 

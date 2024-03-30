@@ -24,7 +24,9 @@
 <script lang="ts">
 import { RouterLink } from 'vue-router';
 import { defineComponent } from 'vue';
+
 export default defineComponent({
+ name: 'the-header',
  components: { RouterLink },
 });
 </script>
