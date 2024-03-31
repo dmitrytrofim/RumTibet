@@ -1,7 +1,7 @@
 <template>
  <main class="flex flex-col">
   <section
-   class="grow bg-[url('/img/about-bg.jpg')] bg-[var(--b-darkgray)] bg-center bg-cover"
+   class="grow bg-[url('/src/assets/img/about-bg.jpg')] bg-[var(--b-darkgray)] bg-center bg-cover"
   >
    <v-container class="h-full">
     <div

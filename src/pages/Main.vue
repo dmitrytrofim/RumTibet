@@ -62,17 +62,17 @@
       </p>
       <ul class="flex flex-col gap-[40px] mb-[40px]">
        <offer-item
-        img="blog-1.svg"
+        :img="images.offer[0]"
         title="Опытный гид"
         text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        />
        <offer-item
-        img="blog-2.svg"
+        :img="images.offer[1]"
         title="Безопасный поход"
         text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        />
        <offer-item
-        img="blog-3.svg"
+        :img="images.offer[2]"
         title="Лояльные цены"
         text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        />
@@ -109,21 +109,21 @@
       class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_400px)] max-[1280px]:mx-auto"
      >
       <popular-card
-       img="popular-1.png"
+       :img="images.popular[0]"
        title="Озеро возле гор"
        text="романтическое приключение"
        rating="4.9"
        cost="480"
       />
       <popular-card
-       img="popular-2.png"
+       :img="images.popular[1]"
        title="Ночь в горах"
        text="в компании друзей"
        rating="4.5"
        cost="500"
       />
       <popular-card
-       img="popular-3.png"
+       :img="images.popular[2]"
        title="Йога в горах"
        text="для тех, кто забоится о себе"
        rating="5.0"
@@ -143,28 +143,28 @@
       class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_580px)] max-[1280px]:mx-auto"
      >
       <blog-card
-       img="blog-1.png"
+       :img="images.blog[0]"
        title="Красивая Италя, какая она в реальности?"
        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        time="01/04/2023"
        link="#test"
       />
       <blog-card
-       img="blog-2.png"
+       :img="images.blog[1]"
        title="Долой сомнения! Весь мир открыт для вас!"
        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        time="01/04/2023"
        link="#test"
       />
       <blog-card
-       img="blog-3.png"
+       :img="images.blog[2]"
        title="Как подготовиться к путешествию в одиночку? "
        text="Для современного мира базовый вектор развития предполагает."
        time="01/04/2023"
        link="#test"
       />
       <blog-card
-       img="blog-4.png"
+       :img="images.blog[3]"
        title="Индия ... летим?"
        text="Для современного мира базовый."
        time="01/04/2023"
@@ -240,9 +240,25 @@
 </template>
 
 <script lang="ts">
+import popular1 from '@/assets/img/popular-1.png';
+import popular2 from '@/assets/img/popular-2.png';
+import popular3 from '@/assets/img/popular-3.png';
+import blog1 from '@/assets/img/blog-1.png';
+import blog2 from '@/assets/img/blog-2.png';
+import blog3 from '@/assets/img/blog-3.png';
+import blog4 from '@/assets/img/blog-4.png';
+import offer1 from '@/assets/img/svg/offer-1.svg';
+import offer2 from '@/assets/img/svg/offer-2.svg';
+import offer3 from '@/assets/img/svg/offer-3.svg';
 export default {
  data() {
-  return {};
+  return {
+   images: {
+    popular: [popular1, popular2, popular3],
+    blog: [blog1, blog2, blog3, blog4],
+    offer: [offer1, offer2, offer3],
+   },
+  };
  },
 };
 </script>
