@@ -208,7 +208,7 @@
     <div class="flex flex-col items-center py-[80px]">
      <p class="overtitle mb-[10px]">делимся впечатлениями</p>
      <h2 class="title mb-[40px]">Блог о путешествиях</h2>
-     <div class="grid grid-cols-2 gap-[20px] mb-[50px]">
+     <div class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px]">
       <div
        class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
       >
@@ -304,7 +304,33 @@
   </section>
   <section>
    <v-container>
-    <div class=""></div>
+    <div class="flex flex-col items-center py-[80px]">
+     <p class="overtitle mb-[10px]">фото-отчет</p>
+     <h2 class="title mb-[40px]">Делимся впечатлениями</h2>
+     <div
+      class="self-stretch grid grid-cols-4 auto-rows-[250px] gap-[20px] mb-[50px]"
+     >
+      <div class="i-wrap col-[1/3]">
+       <img class="i-full" src="/img/gallery-1.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="i-wrap">
+       <img class="i-full" src="/img/gallery-2.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="i-wrap">
+       <img class="i-full" src="/img/gallery-3.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="i-wrap">
+       <img class="i-full" src="/img/gallery-4.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="i-wrap col-[2/4]">
+       <img class="i-full" src="/img/gallery-5.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="i-wrap">
+       <img class="i-full" src="/img/gallery-6.jpg" alt="" loading="lazy" />
+      </div>
+     </div>
+     <v-button>Наш pinterest</v-button>
+    </div>
    </v-container>
   </section>
  </main>

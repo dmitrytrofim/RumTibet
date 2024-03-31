@@ -2,6 +2,7 @@
  <v-wrapper>
   <the-header />
   <router-view></router-view>
+  <the-footer />
  </v-wrapper>
 </template>
 
