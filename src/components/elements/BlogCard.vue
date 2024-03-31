@@ -1,9 +1,13 @@
+<script setup lang="ts">
+const imgUrl = window.location.pathname + 'img/';
+</script>
+
 <template>
  <div
   class="flex items-center gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
  >
   <div class="i-wrap shrink-0 w-[230px] aspect-[0.82] max-[640px]:hidden">
-   <img class="i-full rounded-[6px]" :src="img" alt="" />
+   <img class="i-full rounded-[6px]" :src="imgUrl + img" alt="" />
   </div>
   <div class="grow flex flex-col py-[16px]">
    <h3 class="text-24 leading-[1.3] mb-[24px]">

@@ -62,17 +62,17 @@
       </p>
       <ul class="flex flex-col gap-[40px] mb-[40px]">
        <offer-item
-        img="/img/svg/blog-1.svg"
+        img="blog-1.svg"
         title="Опытный гид"
         text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        />
        <offer-item
-        img="/img/svg/blog-2.svg"
+        img="blog-2.svg"
         title="Безопасный поход"
         text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        />
        <offer-item
-        img="/img/svg/blog-3.svg"
+        img="blog-3.svg"
         title="Лояльные цены"
         text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        />
@@ -109,21 +109,21 @@
       class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_400px)] max-[1280px]:mx-auto"
      >
       <popular-card
-       img="/img/popular-1.png"
+       img="popular-1.png"
        title="Озеро возле гор"
        text="романтическое приключение"
        rating="4.9"
        cost="480"
       />
       <popular-card
-       img="/img/popular-2.png"
+       img="popular-2.png"
        title="Ночь в горах"
        text="в компании друзей"
        rating="4.5"
        cost="500"
       />
       <popular-card
-       img="/img/popular-3.png"
+       img="popular-3.png"
        title="Йога в горах"
        text="для тех, кто забоится о себе"
        rating="5.0"
@@ -143,7 +143,7 @@
       class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_580px)] max-[1280px]:mx-auto"
      >
       <blog-card
-       img="test"
+       img="blog-1.png"
        title="Красивая Италя, какая она в реальности?"
        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        time="01/04/2023"
