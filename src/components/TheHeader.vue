@@ -1,8 +1,11 @@
 <template>
  <header class="absolute top-0 left-0 w-full text-[var(--b-white)] z-[200]">
   <v-container>
-   <div class="flex items-center gap-[50px]">
-    <RouterLink class="i-wrap w-[137px] aspect-[1.9]" to="/">
+   <div class="flex items-center gap-[50px] py-[10px]">
+    <RouterLink
+     class="i-wrap w-[137px] aspect-[1.9] max-[768px]:w-[70px]"
+     to="/"
+    >
      <img src="/img/svg/logo.svg" alt="" class="i-full" />
     </RouterLink>
     <nav class="ml-auto">
@@ -15,7 +18,7 @@
       </li>
      </ul>
     </nav>
-    <v-button>Консультация</v-button>
+    <v-button class="max-[640px]:hidden">Консультация</v-button>
    </div>
   </v-container>
  </header>

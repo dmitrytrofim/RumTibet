@@ -1,7 +1,8 @@
 <template>
  <a
+  @click.prevent="showPopup"
   href="#"
-  class="text-16 font-600 text-[var(--t-white)] bg-[var(--b-darkgray)] rounded-[4px] p-[12px_24px]"
+  class="text-16 font-600 text-[var(--t-white)] bg-[var(--b-darkgray)] rounded-[4px] p-[12px_24px] whitespace-nowrap"
   ><slot></slot
  ></a>
 </template>
@@ -13,6 +14,11 @@ export default defineComponent({
  props: {
   link: {
    type: String,
+  },
+ },
+ methods: {
+  showPopup() {
+   this.$store.commit('showPopup');
   },
  },
 });

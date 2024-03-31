@@ -4,9 +4,9 @@
    class="bg-[url('/img/greet.png')] bg-[var(--b-darkgray)] bg-center bg-cover"
   >
    <v-container>
-    <div class="min-h-dvh flex items-end py-[100px]">
-     <h1 class="text-[50px] text-[var(--t-white)] uppercase leading-[150%]">
-      Насладись прогулкой в горах<br />
+    <div class="min-h-dvh flex items-end py-[100px] max-[768px]:pb-[50px]">
+     <h1 class="text-50 text-[var(--t-white)] uppercase leading-[150%]">
+      Насладись прогулкой в горах<br class="max-[768px]:hidden" />
       с командой единомышленников
      </h1>
     </div>
@@ -14,15 +14,17 @@
   </section>
   <section>
    <v-container>
-    <div class="flex justify-between items-center gap-[120px] py-[100px]">
-     <div class="flex flex-col">
+    <div
+     class="flex justify-between items-center gap-[120px] py-[100px] max-[1280px]:gap-[40px] max-[1024px]:flex-col max-[640px]:py-[40px]"
+    >
+     <div class="flex flex-col max-[640px]:w-full">
       <div
-       class="i-wrap w-[400px] aspect-[0.875] rounded-[24px] overflow-hidden"
+       class="i-wrap w-[400px] aspect-[0.875] rounded-[24px] overflow-hidden max-[640px]:hidden"
       >
        <img class="i-full" src="/img/about.png" alt="" />
       </div>
       <VueYtframe
-       class="relative z-10 w-[400px] aspect-[0.875] rounded-[24px] ml-[130px] mt-[-300px]"
+       class="relative z-10 w-[400px] aspect-[0.875] rounded-[24px] ml-[130px] mt-[-300px] max-[640px]:m-0 max-[640px]:w-full"
        video-id="RlltfdgjHKM"
        loading="lazy"
        :player-vars="{ autoplay: 0, listType: 'user_uploads' }"
@@ -47,7 +49,9 @@
   </section>
   <section class="bg-[var(--b-light)]">
    <v-container>
-    <div class="flex justify-between items-center gap-[90px] py-[100px]">
+    <div
+     class="flex justify-between items-center gap-[90px] py-[100px] max-[640px]:py-[40px]"
+    >
      <div class="flex flex-col items-start">
       <p class="overtitle mb-[10px]">наше предложение</p>
       <h2 class="title mb-[40px]">Лучшие программы для тебя</h2>
@@ -121,7 +125,7 @@
   </section>
   <section>
    <v-container>
-    <div class="flex flex-col items-center py-[100px]">
+    <div class="flex flex-col items-center py-[100px] max-[640px]:py-[40px]">
      <p class="overtitle mb-[10px]">по версии отдыхающих</p>
      <h2 class="title mb-[50px]">Популярные направления</h2>
      <div class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px]">
@@ -207,7 +211,7 @@
   </section>
   <section class="bg-[var(--b-light)]">
    <v-container>
-    <div class="flex flex-col items-center py-[80px]">
+    <div class="flex flex-col items-center py-[80px] max-[640px]:py-[40px]">
      <p class="overtitle mb-[10px]">делимся впечатлениями</p>
      <h2 class="title mb-[40px]">Блог о путешествиях</h2>
      <div class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px]">
@@ -306,7 +310,7 @@
   </section>
   <section>
    <v-container>
-    <div class="flex flex-col items-center py-[80px]">
+    <div class="flex flex-col items-center py-[80px] max-[640px]:py-[40px]">
      <p class="overtitle mb-[10px]">фото-отчет</p>
      <h2 class="title mb-[40px]">Делимся впечатлениями</h2>
      <div

@@ -30,6 +30,22 @@
  --b-darkgray: #1a3e3e;
  --b-light: #f3f5f4;
 }
+@media screen and (max-width: 768px) {
+ :root {
+  --sz-12: 12px;
+  --sz-14: 14px;
+  --sz-16: 14px;
+  --sz-18: 16px;
+  --sz-20: 16px;
+  --sz-24: 18px;
+  --sz-26: 18px;
+  --sz-28: 20px;
+  --sz-30: 20px;
+  --sz-32: 24px;
+  --sz-50: 24px;
+  --sz-80: 28px;
+ }
+}
 
 /* 
  @mark fonts 
