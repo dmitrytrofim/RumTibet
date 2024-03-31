@@ -1,21 +1,24 @@
 <template>
  <div
-  class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
+  class="flex items-center gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
  >
-  <div class="i-wrap shrink-0 w-[230px] aspect-[0.82]">
-   <img class="i-full rounded-[6px]" src="/img/blog-1.png" alt="" />
+  <div class="i-wrap shrink-0 w-[230px] aspect-[0.82] max-[640px]:hidden">
+   <img class="i-full rounded-[6px]" :src="img" alt="" />
   </div>
-  <div class="flex flex-col py-[16px]">
+  <div class="grow flex flex-col py-[16px]">
    <h3 class="text-24 leading-[1.3] mb-[24px]">
-    Красивая Италя, какая она в реальности?
+    {{ title }}
    </h3>
-   <p class="grow font-400 leading-[1.4]">
-    Для современного мира базовый вектор развития предполагает независимые
-    способы реализации соответствующих условий активизации.
+   <p class="grow font-400 leading-[1.4] mb-[20px]">
+    {{ text }}
    </p>
    <div class="flex justify-between">
-    <time class="text-[var(--t-orange)]" datetime="2023-04-01">01/04/2023</time>
-    <a href="#" class="">читать статью</a>
+    <time
+     class="text-[var(--t-orange)]"
+     :datetime="time?.split('/').reverse().join('-')"
+     >{{ time }}</time
+    >
+    <a :href="link" class="">читать статью</a>
    </div>
   </div>
  </div>
@@ -25,5 +28,12 @@
 import { defineComponent } from 'vue';
 export default defineComponent({
  name: 'blog-card',
+ props: {
+  img: String,
+  title: String,
+  text: String,
+  time: String,
+  link: String,
+ },
 });
 </script>

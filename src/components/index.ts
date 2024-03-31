@@ -6,6 +6,7 @@ import VButton from './UI/VButton.vue';
 import VPopup from './UI/VPopup.vue';
 import OfferItem from './elements/OfferItem.vue';
 import PopularCard from './elements/PopularCard.vue';
+import BlogCard from './elements/BlogCard.vue';
 
 export default [
  TheHeader,
@@ -16,4 +17,5 @@ export default [
  VPopup,
  OfferItem,
  PopularCard,
+ BlogCard,
 ];
