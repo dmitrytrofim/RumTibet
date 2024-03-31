@@ -102,85 +102,33 @@
    <v-container>
     <div class="flex flex-col items-center py-[100px] max-[640px]:py-[40px]">
      <p class="overtitle mb-[10px]">по версии отдыхающих</p>
-     <h2 class="title mb-[50px]">Популярные направления</h2>
+     <h2 class="title mb-[50px] max-[1280px]:text-center">
+      Популярные направления
+     </h2>
      <div
       class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_400px)] max-[1280px]:mx-auto"
      >
-      <div
-       class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
-      >
-       <img class="i-full" src="/img/popular-1.png" alt="" />
-       <span
-        class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
-        >4.9</span
-       >
-       <div
-        class="relative w-full flex justify-between items-center p-[20px_32px] backdrop-blur-[6px] z-10"
-       >
-        <div class="flex flex-col">
-         <h3 class="text-24 leading-[1.2] text-[var(--t-white)]">
-          Озеро возле гор
-         </h3>
-         <p class="font-400 leading-[1.28] text-[var(--t-white)]">
-          романтическое приключение
-         </p>
-        </div>
-        <span
-         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px] whitespace-nowrap"
-         >480 $</span
-        >
-       </div>
-      </div>
-      <div
-       class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
-      >
-       <img class="i-full" src="/img/popular-2.png" alt="" />
-       <span
-        class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
-        >4.9</span
-       >
-       <div
-        class="relative w-full flex justify-between items-center p-[20px_32px] backdrop-blur-[6px] z-10"
-       >
-        <div class="flex flex-col">
-         <h3 class="text-24 leading-[1.2] text-[var(--t-white)]">
-          Озеро возле гор
-         </h3>
-         <p class="font-400 leading-[1.28] text-[var(--t-white)]">
-          романтическое приключение
-         </p>
-        </div>
-        <span
-         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px] whitespace-nowrap"
-         >480 $</span
-        >
-       </div>
-      </div>
-      <div
-       class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
-      >
-       <img class="i-full" src="/img/popular-3.png" alt="" />
-       <span
-        class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
-        >4.9</span
-       >
-       <div
-        class="relative w-full flex justify-between items-center p-[20px_32px] backdrop-blur-[6px] z-10"
-       >
-        <div class="flex flex-col">
-         <h3 class="text-24 leading-[1.2] text-[var(--t-white)]">
-          Озеро возле гор
-         </h3>
-         <p class="font-400 leading-[1.28] text-[var(--t-white)]">
-          романтическое приключение
-         </p>
-        </div>
-        <span
-         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px] whitespace-nowrap"
-         >480 $</span
-        >
-       </div>
-      </div>
+      <popular-card
+       img="/img/popular-1.png"
+       title="Озеро возле гор"
+       text="романтическое приключение"
+       rating="4.9"
+       cost="480"
+      />
+      <popular-card
+       img="/img/popular-2.png"
+       title="Ночь в горах"
+       text="в компании друзей"
+       rating="4.5"
+       cost="500"
+      />
+      <popular-card
+       img="/img/popular-3.png"
+       title="Йога в горах"
+       text="для тех, кто забоится о себе"
+       rating="5.0"
+       cost="230"
+      />
      </div>
      <v-button>Стоимость программ</v-button>
     </div>
@@ -194,94 +142,7 @@
      <div
       class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_580px)] max-[1280px]:mx-auto"
      >
-      <div
-       class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
-      >
-       <div class="i-wrap shrink-0 w-[230px] aspect-[0.82]">
-        <img class="i-full rounded-[6px]" src="/img/blog-1.png" alt="" />
-       </div>
-       <div class="flex flex-col py-[16px]">
-        <h3 class="text-24 leading-[1.3] mb-[24px]">
-         Красивая Италя, какая она в реальности?
-        </h3>
-        <p class="grow font-400 leading-[1.4]">
-         Для современного мира базовый вектор развития предполагает независимые
-         способы реализации соответствующих условий активизации.
-        </p>
-        <div class="flex justify-between">
-         <time class="text-[var(--t-orange)]" datetime="2023-04-01"
-          >01/04/2023</time
-         >
-         <a href="#" class="">читать статью</a>
-        </div>
-       </div>
-      </div>
-      <div
-       class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
-      >
-       <div class="i-wrap shrink-0 w-[230px] aspect-[0.82]">
-        <img class="i-full rounded-[6px]" src="/img/blog-1.png" alt="" />
-       </div>
-       <div class="flex flex-col py-[16px]">
-        <h3 class="text-24 leading-[1.3] mb-[24px]">
-         Красивая Италя, какая она в реальности?
-        </h3>
-        <p class="grow font-400 leading-[1.4]">
-         Для современного мира базовый вектор развития предполагает независимые
-         способы реализации соответствующих условий активизации.
-        </p>
-        <div class="flex justify-between">
-         <time class="text-[var(--t-orange)]" datetime="2023-04-01"
-          >01/04/2023</time
-         >
-         <a href="#" class="">читать статью</a>
-        </div>
-       </div>
-      </div>
-      <div
-       class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
-      >
-       <div class="i-wrap shrink-0 w-[230px] aspect-[0.82]">
-        <img class="i-full rounded-[6px]" src="/img/blog-1.png" alt="" />
-       </div>
-       <div class="flex flex-col py-[16px]">
-        <h3 class="text-24 leading-[1.3] mb-[24px]">
-         Красивая Италя, какая она в реальности?
-        </h3>
-        <p class="grow font-400 leading-[1.4]">
-         Для современного мира базовый вектор развития предполагает независимые
-         способы реализации соответствующих условий активизации.
-        </p>
-        <div class="flex justify-between">
-         <time class="text-[var(--t-orange)]" datetime="2023-04-01"
-          >01/04/2023</time
-         >
-         <a href="#" class="">читать статью</a>
-        </div>
-       </div>
-      </div>
-      <div
-       class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
-      >
-       <div class="i-wrap shrink-0 w-[230px] aspect-[0.82]">
-        <img class="i-full rounded-[6px]" src="/img/blog-1.png" alt="" />
-       </div>
-       <div class="flex flex-col py-[16px]">
-        <h3 class="text-24 leading-[1.3] mb-[24px]">
-         Красивая Италя, какая она в реальности?
-        </h3>
-        <p class="grow font-400 leading-[1.4]">
-         Для современного мира базовый вектор развития предполагает независимые
-         способы реализации соответствующих условий активизации.
-        </p>
-        <div class="flex justify-between">
-         <time class="text-[var(--t-orange)]" datetime="2023-04-01"
-          >01/04/2023</time
-         >
-         <a href="#" class="">читать статью</a>
-        </div>
-       </div>
-      </div>
+      <blog-card />
      </div>
      <v-button>Другие материалы</v-button>
     </div>
