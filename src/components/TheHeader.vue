@@ -6,7 +6,7 @@
      class="i-wrap w-[137px] aspect-[1.9] max-[768px]:w-[70px]"
      to="/"
     >
-     <img src="/img/svg/logo.svg" alt="" class="i-full" />
+     <img src="/src/assets/img/svg/logo.svg" alt="" class="i-full" />
     </RouterLink>
     <nav class="ml-auto">
      <ul class="flex items-center text-18 gap-[24px]">

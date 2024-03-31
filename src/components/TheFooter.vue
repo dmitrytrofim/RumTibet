@@ -5,19 +5,19 @@
     <div class="flex items-center gap-[10px]">
      <a
       href="#"
-      class="w-[20px] h-[20px] bg-[url('/img/svg/sprite.svg#vk')]"
+      class="w-[20px] h-[20px] bg-[url('/src/assets/img/svg/sprite.svg#vk')]"
      ></a>
      <a
       href="#"
-      class="w-[20px] h-[20px] bg-[url('/img/svg/sprite.svg#telega')]"
+      class="w-[20px] h-[20px] bg-[url('/src/assets/img/svg/sprite.svg#telega')]"
      ></a>
      <a
       href="#"
-      class="w-[20px] h-[20px] bg-[url('/img/svg/sprite.svg#skype')]"
+      class="w-[20px] h-[20px] bg-[url('/src/assets/img/svg/sprite.svg#skype')]"
      ></a>
      <a
       href="#"
-      class="w-[20px] h-[20px] bg-[url('/img/svg/sprite.svg#pint')]"
+      class="w-[20px] h-[20px] bg-[url('/src/assets/img/svg/sprite.svg#pint')]"
      ></a>
     </div>
     <p>Все права защищены</p>

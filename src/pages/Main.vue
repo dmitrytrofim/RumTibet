@@ -1,7 +1,7 @@
 <template>
  <main>
   <section
-   class="bg-[url('/img/greet.png')] bg-[var(--b-darkgray)] bg-center bg-cover"
+   class="bg-[url('/src/assets/img/greet.png')] bg-[var(--b-darkgray)] bg-center bg-cover"
   >
    <v-container>
     <div class="min-h-dvh flex items-end py-[100px] max-[768px]:pb-[50px]">
@@ -21,7 +21,7 @@
       <div
        class="i-wrap w-[400px] aspect-[0.875] rounded-[24px] overflow-hidden max-[640px]:hidden"
       >
-       <img class="i-full" src="/img/about.png" alt="" />
+       <img class="i-full" src="/src/assets/img/about.png" alt="" />
       </div>
       <VueYtframe
        class="relative z-10 w-[400px] aspect-[0.875] rounded-[24px] ml-[130px] mt-[-300px] max-[640px]:m-0 max-[640px]:w-full"
@@ -83,16 +83,16 @@
       class="shrink-0 grid grid-cols-[250px_250px] gap-[10px] max-[640px]:grid-cols-[1fr_1fr] max-[640px]:self-stretch"
      >
       <div class="i-wrap aspect-square rounded-[0_50px_0_50px] overflow-hidden">
-       <img src="/img/program-1.png" alt="" class="i-full" />
+       <img src="/src/assets/img/program-1.png" alt="" class="i-full" />
       </div>
       <div class="i-wrap aspect-square rounded-[50px_0_50px_0] overflow-hidden">
-       <img src="/img/program-2.png" alt="" class="i-full" />
+       <img src="/src/assets/img/program-2.png" alt="" class="i-full" />
       </div>
       <div class="i-wrap aspect-square rounded-[50px_0_50px_0] overflow-hidden">
-       <img src="/img/program-3.png" alt="" class="i-full" />
+       <img src="/src/assets/img/program-3.png" alt="" class="i-full" />
       </div>
       <div class="i-wrap aspect-square rounded-[0_50px_0_50px] overflow-hidden">
-       <img src="/img/program-4.png" alt="" class="i-full" />
+       <img src="/src/assets/img/program-4.png" alt="" class="i-full" />
       </div>
      </div>
     </div>
@@ -184,22 +184,52 @@
       class="self-stretch grid grid-cols-4 auto-rows-[250px] gap-[20px] mb-[50px] max-[1280px]:grid-cols-1"
      >
       <div class="i-wrap col-[1/3] max-[1280px]:col-auto">
-       <img class="i-full" src="/img/gallery-1.jpg" alt="" loading="lazy" />
+       <img
+        class="i-full"
+        src="/src/assets/img/gallery-1.jpg"
+        alt=""
+        loading="lazy"
+       />
       </div>
       <div class="i-wrap">
-       <img class="i-full" src="/img/gallery-2.jpg" alt="" loading="lazy" />
+       <img
+        class="i-full"
+        src="/src/assets/img/gallery-2.jpg"
+        alt=""
+        loading="lazy"
+       />
       </div>
       <div class="i-wrap">
-       <img class="i-full" src="/img/gallery-3.jpg" alt="" loading="lazy" />
+       <img
+        class="i-full"
+        src="/src/assets/img/gallery-3.jpg"
+        alt=""
+        loading="lazy"
+       />
       </div>
       <div class="i-wrap">
-       <img class="i-full" src="/img/gallery-4.jpg" alt="" loading="lazy" />
+       <img
+        class="i-full"
+        src="/src/assets/img/gallery-4.jpg"
+        alt=""
+        loading="lazy"
+       />
       </div>
       <div class="i-wrap col-[2/4] max-[1280px]:col-auto">
-       <img class="i-full" src="/img/gallery-5.jpg" alt="" loading="lazy" />
+       <img
+        class="i-full"
+        src="/src/assets/img/gallery-5.jpg"
+        alt=""
+        loading="lazy"
+       />
       </div>
       <div class="i-wrap">
-       <img class="i-full" src="/img/gallery-6.jpg" alt="" loading="lazy" />
+       <img
+        class="i-full"
+        src="/src/assets/img/gallery-6.jpg"
+        alt=""
+        loading="lazy"
+       />
       </div>
      </div>
      <v-button>Наш pinterest</v-button>
