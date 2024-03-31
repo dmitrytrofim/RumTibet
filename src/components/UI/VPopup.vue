@@ -22,8 +22,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-export default defineComponent({
+export default {
  name: 'v-popup',
  methods: {
   closePopup() {
@@ -31,5 +30,5 @@ export default defineComponent({
    document.querySelector('body')?.classList.remove('j-lock');
   },
  },
-});
+};
 </script>

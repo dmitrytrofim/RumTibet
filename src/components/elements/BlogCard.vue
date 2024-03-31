@@ -27,11 +27,10 @@
 <script lang="ts">
 export default {
  name: 'blog-card',
- props: ['img', 'title', 'text', 'time', 'link'] as string[],
+ props: ['img', 'title', 'text', 'time', 'link'],
  setup(props) {
   const imgUrl = window.location.pathname + 'src/assets/img/' + props.img;
-  console.log(imgUrl);
-  return { props };
+  return { imgUrl };
  },
 };
 </script>

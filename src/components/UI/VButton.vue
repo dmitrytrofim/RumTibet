@@ -8,8 +8,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-export default defineComponent({
+export default {
  name: 'v-button',
  props: {
   link: {
@@ -22,5 +21,5 @@ export default defineComponent({
    document.querySelector('body')?.classList.add('j-lock');
   },
  },
-});
+};
 </script>
