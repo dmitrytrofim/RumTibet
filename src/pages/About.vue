@@ -8,7 +8,7 @@
      class="h-full flex flex-col justify-center items-center text-center py-[100px]"
     >
      <h2
-      class="text-[50px] text-[var(--t-white)] uppercase leading-[150%] mb-[20px]"
+      class="text-50 text-[var(--t-white)] uppercase leading-[150%] mb-[20px]"
      >
       Отправьтесь в путешествие<br />
       всей семьей...

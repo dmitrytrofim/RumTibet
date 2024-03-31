@@ -50,7 +50,7 @@
   <section class="bg-[var(--b-light)]">
    <v-container>
     <div
-     class="flex justify-between items-center gap-[90px] py-[100px] max-[640px]:py-[40px]"
+     class="flex justify-between items-center gap-[90px] py-[100px] max-[640px]:py-[40px] max-[1280px]:gap-[40px] max-[1024px]:flex-col"
     >
      <div class="flex flex-col items-start">
       <p class="overtitle mb-[10px]">наше предложение</p>
@@ -104,9 +104,11 @@
         </div>
        </li>
       </ul>
-      <v-button>Стоимость программ</v-button>
+      <v-button class="max-[1024px]:self-center">Стоимость программ</v-button>
      </div>
-     <div class="shrink-0 grid grid-cols-[250px_250px] gap-[10px]">
+     <div
+      class="shrink-0 grid grid-cols-[250px_250px] gap-[10px] max-[640px]:grid-cols-[1fr_1fr] max-[640px]:self-stretch"
+     >
       <div class="i-wrap aspect-square rounded-[0_50px_0_50px] overflow-hidden">
        <img src="/img/program-1.png" alt="" class="i-full" />
       </div>
@@ -128,7 +130,9 @@
     <div class="flex flex-col items-center py-[100px] max-[640px]:py-[40px]">
      <p class="overtitle mb-[10px]">по версии отдыхающих</p>
      <h2 class="title mb-[50px]">Популярные направления</h2>
-     <div class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px]">
+     <div
+      class="self-stretch grid grid-cols-3 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_400px)] max-[1280px]:mx-auto"
+     >
       <div
        class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden"
       >
@@ -149,7 +153,7 @@
          </p>
         </div>
         <span
-         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px]"
+         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px] whitespace-nowrap"
          >480 $</span
         >
        </div>
@@ -174,7 +178,7 @@
          </p>
         </div>
         <span
-         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px]"
+         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px] whitespace-nowrap"
          >480 $</span
         >
        </div>
@@ -199,7 +203,7 @@
          </p>
         </div>
         <span
-         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px]"
+         class="text-20 text-[var(--t-white)] bg-[rgba(255,255,255,0.3)] rounded-[4px] p-[8px_16px] whitespace-nowrap"
          >480 $</span
         >
        </div>
@@ -214,7 +218,9 @@
     <div class="flex flex-col items-center py-[80px] max-[640px]:py-[40px]">
      <p class="overtitle mb-[10px]">делимся впечатлениями</p>
      <h2 class="title mb-[40px]">Блог о путешествиях</h2>
-     <div class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px]">
+     <div
+      class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_580px)] max-[1280px]:mx-auto"
+     >
       <div
        class="flex justify-between gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
       >
@@ -314,9 +320,9 @@
      <p class="overtitle mb-[10px]">фото-отчет</p>
      <h2 class="title mb-[40px]">Делимся впечатлениями</h2>
      <div
-      class="self-stretch grid grid-cols-4 auto-rows-[250px] gap-[20px] mb-[50px]"
+      class="self-stretch grid grid-cols-4 auto-rows-[250px] gap-[20px] mb-[50px] max-[1280px]:grid-cols-1"
      >
-      <div class="i-wrap col-[1/3]">
+      <div class="i-wrap col-[1/3] max-[1280px]:col-auto">
        <img class="i-full" src="/img/gallery-1.jpg" alt="" loading="lazy" />
       </div>
       <div class="i-wrap">
@@ -328,7 +334,7 @@
       <div class="i-wrap">
        <img class="i-full" src="/img/gallery-4.jpg" alt="" loading="lazy" />
       </div>
-      <div class="i-wrap col-[2/4]">
+      <div class="i-wrap col-[2/4] max-[1280px]:col-auto">
        <img class="i-full" src="/img/gallery-5.jpg" alt="" loading="lazy" />
       </div>
       <div class="i-wrap">

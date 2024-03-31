@@ -19,6 +19,7 @@ export default defineComponent({
  methods: {
   showPopup() {
    this.$store.commit('showPopup');
+   document.querySelector('body')?.classList.add('j-lock');
   },
  },
 });

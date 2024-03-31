@@ -98,10 +98,10 @@
   @apply absolute top-0 left-0 w-full h-full object-cover object-center;
  }
  .overtitle {
-  @apply text-24 font-400 leading-[0.83] text-[var(--t-orange)];
+  @apply text-24 font-400 leading-[0.83] text-[var(--t-orange)] text-center;
  }
  .title {
-  @apply text-32 font-800 leading-[1.2];
+  @apply text-32 font-800 leading-[1.2] text-center;
  }
  .text {
   @apply text-18 font-400 leading-[1.5];

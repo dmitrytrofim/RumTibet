@@ -47,6 +47,9 @@
    ],
    "@store/*": [
     "src/store/*"
+   ],
+   "@elements/*": [
+    "src/components/elements/*"
    ]
   },
   "noImplicitAny": false,

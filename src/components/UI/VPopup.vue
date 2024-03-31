@@ -28,6 +28,7 @@ export default defineComponent({
  methods: {
   closePopup() {
    this.$store.commit('closePopup');
+   document.querySelector('body')?.classList.remove('j-lock');
   },
  },
 });
