@@ -29,7 +29,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
  name: 'blog-card',
  props: {
-  img: URL,
+  img: String,
   title: String,
   text: String,
   time: String,

@@ -143,7 +143,7 @@
       class="self-stretch grid grid-cols-2 gap-[20px] mb-[50px] max-[1280px]:grid-cols-[minmax(0,_580px)] max-[1280px]:mx-auto"
      >
       <blog-card
-       img="/img/blog-1.png"
+       img="test"
        title="Красивая Италя, какая она в реальности?"
        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
        time="01/04/2023"
