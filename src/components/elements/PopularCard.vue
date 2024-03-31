@@ -1,6 +1,6 @@
 <template>
  <div class="i-wrap items-end aspect-[0.76] rounded-[32px] overflow-hidden">
-  <img class="i-full" :src="imgUrl" alt="" />
+  <img class="i-full" :src="img" alt="" />
   <span
    class="absolute z-10 top-[10%] flex items-end gap-[8px] right-0 p-[7px_8px] before:relative before:flex before:shrink-0 before:w-[18px] before:aspect-square before:bg-[url('/img/svg/sprite.svg#star')] before:bg-no-repeat before:bg-contain before:bg-center rounded-[4px_0_0_4px] backdrop-blur-[4px] bg-[rgba(253,253,253,0.4)]"
    >{{ rating }}</span
@@ -26,9 +26,5 @@
 export default {
  name: 'popular-card',
  props: ['title', 'text', 'rating', 'cost', 'img'],
- setup(props) {
-  const imgUrl = window.location.pathname + 'src/assets/img/' + props.img;
-  return { imgUrl };
- },
 };
 </script>
