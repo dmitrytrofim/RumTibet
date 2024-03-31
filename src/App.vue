@@ -3,6 +3,7 @@
   <the-header />
   <router-view></router-view>
   <the-footer />
+  <v-popup />
  </v-wrapper>
 </template>
 
