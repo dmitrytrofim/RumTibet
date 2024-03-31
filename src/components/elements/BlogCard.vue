@@ -3,9 +3,7 @@ const imgUrl = window.location.pathname + 'img/';
 </script>
 
 <template>
- <div
-  class="flex items-center gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]"
- >
+ <div class="flex gap-[24px] bg-[var(--b-white)] rounded-[10px] p-[16px]">
   <div class="i-wrap shrink-0 w-[230px] aspect-[0.82] max-[640px]:hidden">
    <img class="i-full rounded-[6px]" :src="imgUrl + img" alt="" />
   </div>
