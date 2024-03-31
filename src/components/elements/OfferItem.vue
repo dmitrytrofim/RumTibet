@@ -17,15 +17,9 @@ import { defineComponent } from 'vue';
 export default defineComponent({
  name: 'offer-item',
  props: {
-  img: {
-   type: String,
-  },
-  title: {
-   type: String,
-  },
-  text: {
-   type: String,
-  },
+  img: String,
+  title: String,
+  text: String,
  },
 });
 </script>
