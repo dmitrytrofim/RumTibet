@@ -1,3 +1,4 @@
+// import { createWebHistory, createRouter } from 'vue-router';
 import { createWebHashHistory, createRouter } from 'vue-router';
 
 import Main from '../pages/Main.vue';
