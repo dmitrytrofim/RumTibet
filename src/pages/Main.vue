@@ -1,6 +1,8 @@
 <template>
  <main>
-  <section class="bg-[url('/img/greet.png')] bg-center bg-cover">
+  <section
+   class="bg-[url('/img/greet.png')] bg-[var(--b-darkgray)] bg-center bg-cover"
+  >
    <v-container>
     <div class="min-h-dvh flex items-end py-[100px]">
      <h1 class="text-[50px] text-[var(--t-white)] uppercase leading-[150%]">

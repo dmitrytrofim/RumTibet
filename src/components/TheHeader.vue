@@ -1,5 +1,5 @@
 <template>
- <header class="absolute top-0 left-0 w-full text-[var(--b-white)]">
+ <header class="absolute top-0 left-0 w-full text-[var(--b-white)] z-[200]">
   <v-container>
    <div class="flex items-center gap-[50px]">
     <RouterLink class="i-wrap w-[137px] aspect-[1.9]" to="/">
