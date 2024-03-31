@@ -4,5 +4,14 @@ import VWrapper from './commons/VWrapper.vue';
 import VContainer from './commons/VContainer.vue';
 import VButton from './UI/VButton.vue';
 import VPopup from './UI/VPopup.vue';
+import OfferItem from './elements/OfferItem.vue';
 
-export default [TheHeader, TheFooter, VWrapper, VContainer, VButton, VPopup];
+export default [
+ TheHeader,
+ TheFooter,
+ VWrapper,
+ VContainer,
+ VButton,
+ VPopup,
+ OfferItem,
+];

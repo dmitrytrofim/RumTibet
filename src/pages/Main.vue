@@ -61,48 +61,21 @@
        колледжа.
       </p>
       <ul class="flex flex-col gap-[40px] mb-[40px]">
-       <li class="flex items-center gap-[15px]">
-        <img
-         class="shrink-0 w-[50px] aspect-square"
-         src="/img/svg/blog-1.svg"
-         alt=""
-        />
-        <div class="flex flex-col gap-[5px]">
-         <p class="text-18">Опытный гид</p>
-         <p class="font-400 leading-[1.42]">
-          Для современного мира базовый вектор развития предполагает независимые
-          способы реализации соответствующих условий активизации.
-         </p>
-        </div>
-       </li>
-       <li class="flex items-center gap-[15px]">
-        <img
-         class="shrink-0 w-[50px] aspect-square"
-         src="/img/svg/blog-2.svg"
-         alt=""
-        />
-        <div class="flex flex-col gap-[5px]">
-         <p class="text-18">Безопасный поход</p>
-         <p class="font-400 leading-[1.42]">
-          Для современного мира базовый вектор развития предполагает независимые
-          способы реализации соответствующих условий активизации.
-         </p>
-        </div>
-       </li>
-       <li class="flex items-center gap-[15px]">
-        <img
-         class="shrink-0 w-[50px] aspect-square"
-         src="/img/svg/blog-3.svg"
-         alt=""
-        />
-        <div class="flex flex-col gap-[5px]">
-         <p class="text-18">Лояльные цены</p>
-         <p class="font-400 leading-[1.42]">
-          Для современного мира базовый вектор развития предполагает независимые
-          способы реализации соответствующих условий активизации.
-         </p>
-        </div>
-       </li>
+       <offer-item
+        img="/img/svg/blog-1.svg"
+        title="Опытный гид"
+        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
+       />
+       <offer-item
+        img="/img/svg/blog-2.svg"
+        title="Безопасный поход"
+        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
+       />
+       <offer-item
+        img="/img/svg/blog-3.svg"
+        title="Лояльные цены"
+        text="Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации."
+       />
       </ul>
       <v-button class="max-[1024px]:self-center">Стоимость программ</v-button>
      </div>
