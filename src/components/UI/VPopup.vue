@@ -7,6 +7,7 @@
   >
    <p class="text-32">Свяжитесь с нами!</p>
    <a href="tel:+111222333" class="text-24">+111222333</a>
+   <p>{{ $store.state.showPopup }}</p>
    <button class="absolute top-[10px] right-[10px] text-18" type="button">
     x
    </button>
@@ -18,5 +19,10 @@
 import { defineComponent } from 'vue';
 export default defineComponent({
  name: 'v-popup',
+ // data() {
+ //  return {
+ //   show: $store.showPopup,
+ //  };
+ // },
 });
 </script>

@@ -44,6 +44,9 @@
    ],
    "@commons/*": [
     "src/components/commons/*"
+   ],
+   "@store/*": [
+    "src/store/*"
    ]
   },
   "noImplicitAny": false,
@@ -53,7 +56,8 @@
   "src/**/*.ts",
   "src/**/*.tsx",
   "src/**/*.vue",
-  "src/components/index.ts"
+  "src/components/index.ts",
+  "src/store/index.ts"
  ],
  "references": [
   {
